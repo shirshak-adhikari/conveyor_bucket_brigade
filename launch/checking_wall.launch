@@ -1,0 +1,35 @@
+
+  <launch>
+    <machine name="Waffle_bot_150" address="192.168.0.150" env-loader="/home/pi/catkin_ws/env.sh" user="pi" default="false"/>.
+    <machine name="Waffle_bot_153" address="192.168.0.153" env-loader="/home/pi/catkin_ws/env.sh" user="pi" default="false"/>
+    <machine name="Waffle_bot_151" address="192.168.0.151" env-loader="/home/pi/catkin_ws/env.sh" user="pi" default="false"/>
+    <machine name="Waffle_bot_152" address="192.168.0.152" env-loader="/home/pi/catkin_ws/env.sh" user="pi" default="false"/>
+    <machine name="Waffle_bot_154" address="192.168.0.154" env-loader="/home/pi/catkin_ws/env.sh" user="pi" default="false"/>
+<!-- <group ns="tbt0">
+  <node machine="Waffle_bot_150" name="bucket_mover" pkg="shirshak_bucket_brigade" type="test4_checkwall_mover.py"  output="screen"/>
+  <node machine="Waffle_bot_150" name = "bucket_server" pkg="shirshak_bucket_brigade" type="bucket_proc.py" output ="screen"/>
+</group> -->
+
+
+<!-- <group ns="tbt1">
+  <node machine="Waffle_bot_151" name="bucket_mover" pkg="shirshak_bucket_brigade" type="test4_checkwall_mover.py"  output="screen"/>
+  <node machine="Waffle_bot_151" name = "bucket_server" pkg="shirshak_bucket_brigade" type="bucket_proc.py" output ="screen"/>
+</group> -->
+
+<!-- <group ns="tbt2">
+  <node machine="Waffle_bot_152" name="bucket_mover" pkg="shirshak_bucket_brigade" type="test4_checkwall_mover.py"  output="screen"/>
+  <node machine="Waffle_bot_152" name = "bucket_server" pkg="shirshak_bucket_brigade" type="bucket_proc.py" output ="screen"/>
+</group> -->
+
+<!-- <group ns="tbt3">
+  <node machine="Waffle_bot_153" name="bucket_mover" pkg="shirshak_bucket_brigade" type="test4_checkwall_mover.py"  output="screen"/>
+  <node machine="Waffle_bot_153" name = "bucket_server" pkg="shirshak_bucket_brigade" type="bucket_proc.py" output ="screen"/>
+</group> -->
+
+
+<group ns="tbt4">
+  <node machine="Waffle_bot_154" name="bucket_mover" pkg="shirshak_bucket_brigade" type="test4_checkwall_mover.py"  output="screen"/>
+  <node machine="Waffle_bot_154" name = "bucket_server" pkg="shirshak_bucket_brigade" type="bucket_proc.py" output ="screen"/>
+</group>
+
+</launch>

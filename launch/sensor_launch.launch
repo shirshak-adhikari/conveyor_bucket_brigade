@@ -1,0 +1,6 @@
+  <launch>
+  <machine name="Waffle_bot" address="192.168.0.111" user="pi" default="false" env-loader="/home/pi/catkin_ws/env.sh"/>
+
+  <node machine="Waffle_bot" name = "Conveyor_control" pkg="shirshak_bucket_brigade" type="conv_sensor.py" output="screen"/>
+
+</launch>

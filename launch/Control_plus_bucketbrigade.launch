@@ -1,0 +1,7 @@
+<launch>
+  <node name="bucket_mover" pkg="shirshak_bucket_brigade" type="test3_mover_controller.py"  output="screen"/>
+  <node name = "bucket_server" pkg="shirshak_bucket_brigade" type="bucket_proc.py" output ="screen"/>
+  <node name = "yaw_control" pkg="shirshak_bucket_brigade" type="control_robot.py" output ="screen"/>
+  <node name = "plot_yaw" pkg = "shirshak_bucket_brigade" type = "plot.py" output="screen"/>
+
+</launch>

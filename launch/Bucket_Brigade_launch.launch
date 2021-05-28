@@ -1,0 +1,4 @@
+<launch>
+  <node name="bucket_mover" pkg="shirshak_bucket_brigade" type="mover.py"  output="screen" clear_params="true"/>
+  <node name = "bucket_server" pkg="shirshak_bucket_brigade" type="bucket_proc.py" output ="screen"/>
+</launch>
